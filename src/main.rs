@@ -2,7 +2,7 @@ use rand::Rng;
 
 fn main() {
     print!("\t");
-    for num_coins in 2..20 {
+    for num_coins in 2..=20 {
         print!("\t{num_coins}");
     }
     println!();
